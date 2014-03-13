@@ -6,6 +6,6 @@
 
 set -e
 
-git clone git://github.com/oldskool73/PiKiosk.git PiKiosk
+git clone https://github.com/oldskool73/PiKiosk.git PiKiosk
 chmod +x PiKiosk/setup/setup.sh
 PiKiosk/setup/setup.sh
