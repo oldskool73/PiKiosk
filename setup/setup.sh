@@ -7,4 +7,6 @@ sudo apt-get install xautomation matchbox chromium x11-xserver-utils ttf-mscoref
 sudo cp setup/rclocal /etc/rc.local
 sudo cp setup/xinitrc /boot/xinitrc
 
+crontab setup/crontab
+
 sudo reboot
